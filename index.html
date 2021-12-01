@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Sad MeowMeows Club</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script defer src="js/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- header
+    ================================================== --><!-- <li><a class="smoothscroll" href="#about">FQA</a></li>   --> 
+    <header class="s-header">
+        <div class="row">
+
+            <div class="s-header__logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="Homepage">
+                </a>
+            </div>
+
+            <nav class="s-header__nav">
+                <ul>
+                    <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+                    <li><a class="smoothscroll" href="#services">About Us</a></li>
+                    <li><a class="smoothscroll" href="#portfolio">Our Art</a></li>
+                    <li><a class="smoothscroll" href="#blog">Roadmap</a></li>
+                    <li><a class="smoothscroll" href="#about">Team</a></li>                                           
+                    <li><a href="https://twitter.com/Sad_MeowMeows" target="_blank">
+                        <i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/sadmeowmeowsclub/" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://discord.gg/cHUPDNrfGe" target="_blank">
+                        <i class="fab fa-discord" aria-hidden="true"></i></a></li>
+                    <li class="foxnav-item"><a class="item-link" target="_blank" onclick="select(this)" href="https://etherscan.io">Ξ</a></li> 
+                    <li class="foxnav-item"><a class="item-link" target="_blank" onclick="select(this)" href="https://opensea.io">🌊</a></li>
+                </ul>
+            </nav>
+
+            <a class="s-header__menu-toggle" href="#0" title="Menu">
+                <span class="s-header__menu-icon"></span>
+            </a>
+
+        </div> <!-- end row⚓ -->
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width="2568" data-natural-height="1414">
+
+        <div class="s-home__content">
+
+            <div class="s-home__slider">
+
+                <div class="s-home__slide s-home__slide--1">
+                    <div class="row">
+                        <div class="column large-12 s-home__slide-text">
+                            <h2>
+                            Hello, we are <span>Sad MeowMeows Club</span>.
+                            We have a colection of 10000 NFTs waiting for you!
+                            </h2>
+                            <p>
+                            This project is created by 2 friends that extremly love little kitties. Join our community if you love kitties as well.
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- end s-home__slide -->
+
+                <div class="s-home__slide s-home__slide--2">
+                    <div class="row">
+                        <div class="column large-12 s-home__slider-text">
+                            <h2>
+                            Ilinca <a href="#portfolio" title="">m-am zaibit</a> deja 
+                            <a href="#contact" title="">de programarea asta ibuciaia</a> 
+                            2 saptamani tot stau si scriu.
+                            </h2>
+                            <p>
+                            Ilinca ajuta-ma sa scriu bredu asta!
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- end s-home__slide -->
+
+            </div> <!-- end s-home__slider -->
+
+        </div> <!-- end s-home__content -->
+
+        <div class="s-home__nav-arrows">
+            <div class="s-home__arrow-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.707 17.293L8.414 13H18v-2H8.414l4.293-4.293-1.414-1.414L4.586 12l6.707 6.707z"/></svg>
+            </div>
+            <div class="s-home__arrow-next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.293 17.293l1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"/></svg>
+            </div>
+        </div> <!-- end s-home__nav-arrows -->
+
+        <div class="s-home__line"></div>
+
+    </section> <!-- end s-home -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services target-section s-dark">
+
+        <div class="row section-head">
+            <div class="column large-3 medium-12" data-aos="fade-up">
+                <h2>About Us</h2>
+                <p class="desc">How we started</p>
+            </div>
+
+            <div class="column large-8 medium-12 align-x-right" data-aos="fade-up">
+                <p class="lead">
+                    A passion project made entirely by two friends that are completely astonished by the potential of the blockchain technology.
+                    Inspired by its everlasting capabilities, we decided to bring onto the Ethereum blockchain our Sad MeowMeows kitties.
+                </p>
+            </div>
+        </div> <!-- end section-head -->
+
+        <div>
+            <div class="column large-11 medium-12 align-x-right" data-aos="fade-up">
+                <p class="lead">
+                    We bring you a collection of the cutest 10000 randomly generated Ethereum Blockchain ERC-721 NFTs, 
+                    assembled from over 160 possible properties and 10 rarities, and supported by the decentralized IPFS.
+
+                </p>
+                <p class="lead">
+                    Besides this, our main objective is to create a familiar, friendly and welcoming community with its 
+                    focus on learning with each other so you can too contribute to the NFT community in your own special 
+                    way! With that said, we'll continue to study and explore new ways to elevate and push this project forward!
+                </p>
+            </div>
+        </div>
+    </section> <!-- end s-services -->
+
+
+    <!-- portfolio
+    ================================================== -->
+    <section id="portfolio" class="s-portfolio target-section">
+
+        <div class="row section-head">
+            <div class="column large-3 medium-12" data-aos="fade-up">
+                <h2>Our Art</h2>
+                <p class="desc">Check out some of our NFTs</p>
+            </div>
+
+            <div class="column large-8 medium-12 align-x-right" data-aos="fade-up">
+                <p class="lead">
+                Here we have some kitties from our collection
+                </p>
+            </div>
+        </div> <!-- end section-head -->
+
+        <div class="row block-large-1-3 block-medium-1-2 block-mob-full folio-list">
+
+            <div class="column folio-item" data-aos="fade-up">
+                <a href="#modal-01" class="folio-item__thumb" data-lity>
+                    <img src="images/portfolio/droplet.jpg" 
+                         srcset="images/portfolio/droplet.jpg 1x, 
+                                 images/portfolio/droplet@2x.jpg 2x" alt="">
+                    <span class="folio-item__text">
+                        #1
+                    </span>
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item" data-aos="fade-up">
+                <a href="#modal-02" class="folio-item__thumb" data-lity>
+                    <img src="images/portfolio/lamp.jpg" 
+                         srcset="images/portfolio/lamp.jpg 1x, 
+                                 images/portfolio/lamp@2x.jpg 2x" alt="">
+                    <span class="folio-item__text">
+                        #2
+                    </span>
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item" data-aos="fade-up">
+                <a href="#modal-03" class="folio-item__thumb" data-lity>
+                    <img src="images/portfolio/minimalismo.jpg" 
+                         srcset="images/portfolio/minimalismo.jpg 1x, 
+                                 images/portfolio/minimalismo@2x.jpg 2x" alt="">
+                    <span class="folio-item__text">
+                        #3
+                    </span>
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item" data-aos="fade-up">
+                <a href="#modal-04" class="folio-item__thumb" data-lity>
+                    <img src="images/portfolio/shutterbug.jpg" 
+                         srcset="images/portfolio/shutterbug.jpg 1x, 
+                                 images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                    <span class="folio-item__text">
+                        #4
+                    </span>
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item" data-aos="fade-up">
+                <a href="#modal-05" class="folio-item__thumb" data-lity>
+                    <img src="images/portfolio/fuji.jpg" 
+                         srcset="images/portfolio/fuji.jpg 1x, 
+                                 images/portfolio/fuji@2x.jpg 2x" alt="">
+                    <span class="folio-item__text">
+                        #5
+                    </span>
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item" data-aos="fade-up">
+                <a href="#modal-06" class="folio-item__thumb" data-lity>
+                    <img src="images/portfolio/skaterboy.jpg" 
+                         srcset="images/portfolio/skaterboy.jpg 1x, 
+                                 images/portfolio/skaterboy@2x.jpg 2x" alt="">
+                    <span class="folio-item__text">
+                        #6
+                    </span>
+                </a>
+            </div> <!-- end folio-item -->
+
+        </div> <!-- end folio-list -->
+
+
+        <!-- Modal Popup
+        =========================================================== -->
+        <div id="modal-01" class="modal-popup lity-hide">
+
+            <img src="images/portfolio/gallery/g-droplet.jpg" alt="" />
+
+            <div class="modal-popup__desc">
+                <h5>#1</h5>
+                <p> Ilinca we need here some random text</p>
+                <ul class="modal-popup__cat">
+                    <li>Price here</li>                    
+                </ul>
+            </div>
+
+            <a href="https://opensea.io" target="_blank" class="modal-popup__details">Project link</a>
+
+        </div> <!-- end modal-01 -->
+
+        <div id="modal-02" class="modal-popup lity-hide">
+
+            <img src="images/portfolio/gallery/g-lamp.jpg" alt="" />
+
+            <div class="modal-popup__desc">
+                <h5>#2</h5>
+                <p>here as well</p>
+                <ul class="modal-popup__cat">
+                    <li>The money?</li>
+                </ul>
+            </div>
+
+            <a href="https://opensea.io" target="_blank" class="modal-popup__details">Project link</a>
+
+        </div><!-- end modal-02 -->
+
+        <div id="modal-03" class="modal-popup lity-hide">
+
+            <img src="images/portfolio/gallery/g-minimalismo.jpg" alt="" />
+
+            <div class="modal-popup__desc">
+                <h5>#3</h5>
+                <p>here as well</p>
+                <ul class="modal-popup__cat">
+                    <li>How much blea?</li>
+                </ul>
+            </div>
+
+            <a href="https://opensea.io" target="_blank" class="modal-popup__details">Project link</a>
+
+        </div><!-- end modal-03 -->
+
+        <div id="modal-04" class="modal-popup lity-hide">
+
+            <img src="images/portfolio/gallery/g-shutterbug.jpg" alt="" />
+
+            <div class="modal-popup__desc">
+                <h5>#4</h5>
+                <p>here as well</p>
+                <ul class="modal-popup__cat">
+                    <li>Nu Ilinca davai!</li>
+                </ul>
+            </div>
+
+            <a href="https://opensea.io" target="_blank" class="modal-popup__details">Project link</a>
+
+        </div><!-- end modal-04 -->
+
+        <div id="modal-05" class="modal-popup lity-hide">
+
+            <img src="images/portfolio/gallery/g-fuji.jpg" alt="" />
+
+            <div class="modal-popup__desc">
+                <h5>#5</h5>
+                <p>here as well</p>
+                <ul class="modal-popup__cat">
+                    <li>Posta spune how much??</li>
+                </ul>
+            </div>
+
+            <a href="https://opensea.io" target="_blank" class="modal-popup__details">Project link</a>
+
+        </div><!-- end modal-05 -->
+
+        <div id="modal-06" class="modal-popup lity-hide">
+
+            <img src="images/portfolio/gallery/g-skaterboy.jpg" alt="" />
+
+            <div class="modal-popup__desc">
+                <h5>#6</h5>
+                <p>here as well</p>
+                <ul class="modal-popup__cat">
+                    <li>Da ladna ma pricalesc eu la noi cu preturile :)</li>
+                </ul>
+            </div>
+
+            <a href="https://opensea.io" target="_blank" class="modal-popup__details">Project link</a>
+
+        </div><!-- end modal-06 -->
+
+    </section> <!-- end s-portfolio -->
+
+
+    <!-- blog
+    ==================================================class="s-blog target-section s-dark""s-cta ss-dark" -->
+    <section id="blog" class="target-section  s-cta ss-dark">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column">
+                <h2 class="section-desc">
+                    Roadmap
+                </h2>
+            </div>
+        </div> <!-- end heading-block -->
+    </br>
+    </br>
+        <!-- <div class="row section-head">
+            <div class="column large-3 medium-12" data-aos="fade-up">               
+                    <h2>Roadmap</h2>
+
+                <p class="desc">Our vision and mission.</p>   
+            </div>
+        </div> -->
+       
+        <!-- Blog Entries class="h2"-->
+        
+        <div class="blog-entries">
+
+            <article class="blog-entry" data-aos="fade-up">
+
+                <div class="row blog-entry__header">
+                    
+                    <div class="column large-9 w-1000-stack blog-entry__title">
+                        <h3 >We will organise a raffle of 3 NFTs for the first 100 discord 
+                            users on the day prior to launch</h3>
+                    </div>
+
+                    <div class="column large-3 w-1000-stack blog-entry__meta">
+                        <h2><span class="blog-entry__date">  0%  </span></h2>
+                    </div>
+                </div> <!-- end blog-entry__header -->
+
+            </article> <!-- end blog-entry -->
+            <br/>
+
+            <article class="blog-entry" data-aos="fade-up">
+
+                <div class="row blog-entry__header">
+
+                    <div class="column large-9 w-1000-stack blog-entry__title">
+                        <h3 class="h2">
+                            We will airdrop of 10 MeowMeows to random kitty owners 
+                        </h3>
+                    </div>
+
+                    <div class="column large-3 w-1000-stack blog-entry__meta">
+                        <h2><span class="blog-entry__date">  10%  </span></h2>
+                    </div>
+                </div> <!-- end blog-entry__header -->
+ 
+            </article> <!-- end blog-entry -->
+            <br/>
+
+            <article class="blog-entry" data-aos="fade-up">
+
+                <div class="row blog-entry__header">
+                    
+                    <div class="column large-9 w-1000-stack blog-entry__title">
+                        <h3 class="h2">
+                            Listing on Rarity tools and Rarity Sniper, and 10 NFTs between owners. 
+                        </h3>
+                    </div>
+
+                    <div class="column large-3 w-1000-stack blog-entry__meta">
+                        <h2><span class="blog-entry__date">  30%  </span></h2> 
+                    </div>
+                </div> <!-- end blog-entry__header -->
+
+            </article> <!-- end blog-entry -->
+            <br/>
+
+            <article class="blog-entry" data-aos="fade-up">
+
+                <div class="row blog-entry__header">
+                    
+                    <div class="column large-9 w-1000-stack blog-entry__title">
+                        <h3 class="h2">
+                            Huge Surprise Airdrops and Giveaways. Also creation of an fond for charity.
+                        </h3>
+                    </div>
+
+                    <div class="column large-3 w-1000-stack blog-entry__meta">
+                        <h2><span class="blog-entry__date">  50%  </span></h2> 
+                    </div>
+                </div> <!-- end blog-entry__header -->
+
+            </article> <!-- end blog-entry -->
+            <br/>
+
+            <article class="blog-entry" data-aos="fade-up">
+
+                <div class="row blog-entry__header">
+                    
+                    <div class="column large-9 w-1000-stack blog-entry__title">
+                        <h3 class="h2">
+                            Weekly community giveaways for 3 months.
+                        </h3>
+                    </div>
+
+                    <div class="column large-3 w-1000-stack blog-entry__meta">
+                        <h2><span class="blog-entry__date">  75%  </span></h2> 
+                    </div>
+                </div> <!-- end blog-entry__header -->
+
+            </article> <!-- end blog-entry -->
+            <br/>
+
+            <article class="blog-entry" data-aos="fade-up">
+
+                <div class="row blog-entry__header">
+                    
+                    <div class="column large-9 w-1000-stack blog-entry__title">
+                        <h3 class="h2">
+                            Sold out, all reserved Legendary kitties will be airdropped to lucky holders and more.
+                        </h3>
+                    </div>
+
+                    <div class="column large-3 w-1000-stack blog-entry__meta">
+                        <h2><span class="blog-entry__date">  100%  </span></h2> 
+                    </div>
+                </div> <!-- end blog-entry__header -->
+
+            </article> <!-- end blog-entry -->
+            <br/>
+            <br/>
+
+            <div class="column large-13 medium-12 align-x-right" data-aos="fade-up">
+
+                <h5><p style="color: aliceblue;">
+                    Owning a sad kitty will grant access to future projects/airdrops and utility 
+                    is definitely something we want to bring in the future. Integration into the 
+                    metaverse is something we'd like to achieve as well. 
+                    For now, we decided to set a realistic roadmap and update It accordingly. 
+                    In the future, we intend to set strong partnerships.
+                </p></h5>
+            </div>
+        </div>
+
+        </div> <!-- end blog entries -->
+
+    </section> <!-- end s-blog -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+         <div class="row">
+            <div class="column" data-aos="fade-up">
+                <h2>Meet The Team.</h2>
+            </div>
+        </div>
+        <br/>
+
+        <div class="row block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack team-block">
+
+
+            <div class="column team-member" data-aos="fade-up">
+                <div class="team-member__pic">
+                    <img src="images/team/team-member-02.jpg" 
+                         srcset="images/team/team-member-02.jpg 1x, 
+                                 images/team/team-member-02@2x.jpg 2x" alt="">
+                </div>
+                <div class="team-member__info">
+                    <p class="team-member__name">
+                        Dan MeowMeow
+                        <span>Tehnical Operations</span>
+                    </p>
+                    <ul class="team-member__social">
+                        <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/Dan_MeowMeow" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/dan13669/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
+                        <li><a href="#0"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="column team-member" data-aos="fade-up">
+                <div class="team-member__pic">
+                    <img src="images/team/team-member-03.jpg" 
+                         srcset="images/team/team-member-03.jpg 1x, 
+                                 images/team/team-member-03@2x.jpg 2x" alt="">
+                </div>
+                <div class="team-member__info">
+                    <p class="team-member__name">
+                        Eleeca
+                        <span>Design & Reserch</span>
+                    </p>
+                    <ul class="team-member__social">
+                        <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                        <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
+                        <li><a href="#0"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div> <!-- end team-block -->
+
+    </section> <!-- end s-about -->
+
+
+<!-- CTA
+    ==================================================--> <!-- end heading-block container-4"-->
+    <!-- <section id="about" class="s-cta ss-dark">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column">
+                <h2 class="section-desc">
+                    Frequently Asked Questions?
+                </h2>
+            </div>
+        </div> 
+
+
+        <div class="s-cta ss-dark">
+            <div data-w-id="f319d455-570d-da78-a55d-9a88f88ca75d" style="-webkit-transform:translate3d(0, 55PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 55PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 55PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 55PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="title-wrap-3">
+                <h2 class="heading-9">Frequently asked questions</h2>
+            </div>
+            <div data-w-id="f319d455-570d-da78-a55d-9a88f88ca760" style="-webkit-transform:translate3d(0, 55PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 55PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 55PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 55PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="faq-wrapper">
+                <div data-w-id="f319d455-570d-da78-a55d-9a88f88ca761" class="faq">
+                    <a href="#" class="faq-question-bar-2 w-inline-block">
+                        <div class="question-title-2">What is PugFrens?</div>
+                        <div class="faq-circle">
+                            <img src="images/Arrow-DownPink.svg" alt="" class="faq-arrow">
+                        </div>
+                    </a>
+                    <div class="faq-content-2">
+                        <p class="faq-paragraph">PugFrens is a NFT collection on Ethereum of 8787 unique Pugs hand crafted and algorithmically generated.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <a href="#" class="faq-question-bar-2 w-inline-block">
+                        <div class="question-title-2">Can I participate in the 888 PugFrens free mint?</div>
+                        <div class="faq-circle">
+                            <img src="images/Arrow-DownPink.svg" alt="" class="faq-arrow">
+                        </div>
+                    </a>
+                    <div class="faq-content-2">
+                        <p class="faq-paragraph">Yes if you own a NFT from one of the PugFrens partners collection (MojiMonsters, SpacePunksClub and Doobits). The initiative will take place on 29 September 3PM UTC.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <a href="#" class="faq-question-bar-2 w-inline-block">
+                        <div class="question-title-2">
+                            When is the mint?
+                            <br>
+                        </div>
+                        <div class="faq-circle">
+                            <img src="images/Arrow-DownPink.svg" alt="" class="faq-arrow">
+                        </div>
+                    </a>
+                    <div class="faq-content-2">
+                        <p class="faq-paragraph">30th September 3 PM UTC / 11 AM EST / 5 PM CEST</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <a href="#" class="faq-question-bar-2 w-inline-block">
+                        <div class="question-title-2">
+                            When is the reveal?
+                            <br>
+                        </div>
+                        <div class="faq-circle">
+                            <img src="images/Arrow-DownPink.svg" alt="" class="faq-arrow">
+                        </div>
+                    </a>
+                    <div class="faq-content-2">
+                        <p class="faq-paragraph">Few hours after selling out.</p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <a href="#" class="faq-question-bar-2 w-inline-block">
+                        <div class="question-title-2">No answer?</div>
+                        <div class="faq-circle">
+                            <img src="images/Arrow-DownPink.svg" alt="" class="faq-arrow">
+                        </div>
+                    </a>
+                    <div class="faq-content-2">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        
+    </section>    -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+        
+      
+        <div class="row">
+            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+                Made with ❤️ by MewoMeows Team
+            </div>
+
+            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+                <span>© Sad MeowMeows Club 2021</span> 
+                
+            </div>
+        </div>
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"/></svg>
+            </a>
+        </div>  <!-- end ss-go-top --> 
+    </footer>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
